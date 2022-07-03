@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+#navigation::before{
+    content: "";
+    background-color: rgb(179, 29, 29);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+#navigation ul{
+    display: flex;
+}
+
+#navigation ul li{
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+#navigation ul li a{
+    display: block;
+    padding: 0px 112.3px;
+    border-radius: 30px;
+    text-decoration: none;
+    color:white;
+}
+#navigation ul li a:hover{
+    background-color:rgb(190, 11, 11) ;
+    color: white ;
+}
+ 
+#logo{
+    margin: 10px; 
+    padding: 10px;   
+} 
+
+#logo img{
+    margin: 11px 17px;
+    height: 66px; 
+    align-items: baseline;   
+}
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+
+#home::before{
+    content: "";
+    background:url(https://cdn.pixabay.com/photo/2019/10/02/15/36/kabab-4521237__340.jpg) no-repeat center center/cover; 
+    position: absolute;
+    height: 63%;
+    width: 100%;
+    z-index: -1;
+    opacity: .88;
+    
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    /* background-color: rgba(255, 192, 203, 0.363); */
+    border-radius: 90px;
+    margin: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 4rem;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    /* background-color:rgba(0, 0, 0, 0.63); */
+    border-radius: 90px;
+    padding: inherit;
+    font-size: 2.4rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    margin: 0px 13px ;
+    padding:  3px 15px;
+    margin-top: 300px;
+    background-color: rgba(190, 11, 11, 0.548);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    background-color: rgba(202, 16, 16, 0.918);
+}
+#services{
+    /* margin: 30px; */
+    display: flex;
+    
+
+}
+
+#services .box{
+    border: 3px solid red;
+    padding: 32px;
+    margin: 1px 6px;
+    border-radius: 64px;
+    background: rgb(240, 161, 161);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#services .box:hover{
+    background: rgb(255, 70, 70);
+}
+
+
+#services .box img{
+    height: 186px;
+    margin: auto;
+    display: block; 
+}
+
+#services .box p{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.center{
+    text-align: center;
+    
+}
+
+.h-secondary{
+    font-size: 3rem;
+    padding: 12px;
+}
+
+#client-section{
+    height: 433px;
+
+}
+#client-section::before{
+    content: "";
+    background:url(https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601__340.jpg) no-repeat center center/cover; 
+    position: absolute;
+    height: 63%;
+    width: 100%;
+    z-index: 1;
+    opacity: .2;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+   height: 334px;
+   border-radius: 30px;
+}
+.client-item{
+    padding: 5px;
+    
+}
+
